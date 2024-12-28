@@ -4,7 +4,6 @@ import os
 pygame.init()
 
 screen = pygame.display.set_mode((800, 600))
-pygame.display.set_caption("Custom Mouse Cursor")
 
 cursor_image = pygame.image.load(os.path.join('data', 'arrow.png')).convert_alpha()
 
